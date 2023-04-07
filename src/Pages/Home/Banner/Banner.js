@@ -5,7 +5,7 @@ import PrimaryButton from '../../../Button/PrimaryButton/PrimaryButton';
 
 const Banner = () => {
     return (
-        <div className="hero bg-base-200 rounded-lg">
+        <div className="hero bg-base-200 rounded-lg mt-4">
             <div className="hero-content flex-col lg:flex-row-reverse gap-24 md:gap-14 justify-between items-center">
                 <div>
                     <img src={banner} className="w-full rounded-lg shadow-2xl" alt='fiveM Heist Cover' />

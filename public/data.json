@@ -1,0 +1,34 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Coal",
+            "Importer": "NR International",
+            "images": "https://i.ibb.co/R43vqzM/coal-banner.jpg",
+            "AshContent": "Low",
+            "ImportFrom": "India",
+            "SellingPort": "Chilmari & Baghabari Port",
+            "description": "Reliable, high-quality, and sustainable - our competitively priced coal products are the perfect fuel solution for your industrial or heating needs."
+        },
+        {
+            "id": 2,
+            "name": "Stone",
+            "Importer": "NR International",
+            "images": "https://i.ibb.co/6wBRZsv/stone-31-min-min.png",
+            "AshContent": "Low",
+            "ImportFrom": "India",
+            "SellingPort": "Chilmari & Baghabari Port",
+            "description": "Upgrade your construction or landscaping project with our competitively priced, sustainable, and versatile stone products, available in a variety of natural and polished options."
+        },
+        {
+            "id": 3,
+            "name": "Onion",
+            "Importer": "NR International",
+            "images": "https://i.ibb.co/Y8gbwtW/onion.jpg",
+            "AshContent": "NO",
+            "ImportFrom": "India",
+            "SellingPort": "Chilmari & Baghabari Port",
+            "description": "Upgrade your cooking game with our fresh and competitively priced onion products, sourced from the best farms and produced with a commitment to sustainability and ethical farming practices."
+        }
+    ]
+}
