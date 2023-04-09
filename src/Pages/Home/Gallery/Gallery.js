@@ -17,9 +17,9 @@ const Gallery = () => {
 
     return (
         <div className="container mx-auto my-32">
-            <h2 className='text-center font-teko font-semibold text-6xl text-primary mb-6'>Our Gallery</h2>
+            <h2 className='text-center font-teko font-semibold text-4xl text-primary mb-6'>Our Gallery</h2>
             <hr className='text-center w-64 mx-auto mb-12' />
-            <div className="flex justify-center mb-8 gap-8 font-semibold text-2xl font-barlow">
+            <div className="flex justify-center mx-auto mb-8 gap-4 md:gap-8 font-semibold text-2xl font-barlow md:w-full w-1/2">
                 <button className={`mr-2 px-4 py-2 rounded-md  ${filter === 'all' ? 'bg-primary text-white' : 'bg-gray-200 text-gray-600'}`} onClick={() => setFilter('all')}>All</button>
                 <button className={`mr-2 px-4 py-2 rounded-md ${filter === 'coal' ? 'bg-primary text-white' : 'bg-gray-200 text-gray-600'}`} onClick={() => setFilter('coal')}>Coal</button>
                 <button className={`mr-2 px-4 py-2 rounded-md ${filter === 'stone' ? 'bg-primary text-white' : 'bg-gray-200 text-gray-600'}`} onClick={() => setFilter('stone')}>Stone</button>
