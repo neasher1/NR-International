@@ -1,5 +1,6 @@
 import React from 'react';
 import { BsChevronDoubleRight } from 'react-icons/bs';
+import { Link } from 'react-router-dom';
 
 const Catagory = ({ pro }) => {
 
@@ -18,10 +19,13 @@ const Catagory = ({ pro }) => {
                 <p className='text-xl font-barlow text-left'><span className='font-semibold text-primary text-left'>Selling Port: </span>{SellingPort}</p>
                 <p className='text-xl font-barlow leading-relaxed'><span className='font-semibold text-primary'>Details: </span>{description}</p>
                 <div className='mt-8 font-barlow'>
-                    <button
-                        className="font-barlow btn btn-secondary text-black bg-white border-primary hover:text-white hover:btn-primary tracking-widest" >
-                        Contact US <BsChevronDoubleRight />
-                    </button>
+                    <Link to="/contact-us">
+                        <button
+                            className="font-barlow btn btn-secondary text-black bg-white border-primary hover:text-white hover:btn-primary tracking-widest" >
+                            Contact US <BsChevronDoubleRight />
+                        </button>
+                    </Link>
+
                 </div>
             </div>
         </div>

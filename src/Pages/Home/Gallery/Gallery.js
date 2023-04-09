@@ -19,7 +19,7 @@ const Gallery = () => {
         <div className="container mx-auto my-32">
             <h2 className='text-center font-teko font-semibold text-4xl text-primary mb-6'>Our Gallery</h2>
             <hr className='text-center w-64 mx-auto mb-12' />
-            <div className="flex justify-center mx-auto mb-8 gap-4 md:gap-8 font-semibold text-2xl font-barlow md:w-full w-1/2">
+            <div className="flex justify-center mx-auto mb-8 gap-4 md:gap-8 font-semibold text-2xl font-barlow md:w-full w-3/12	">
                 <button className={`mr-2 px-4 py-2 rounded-md  ${filter === 'all' ? 'bg-primary text-white' : 'bg-gray-200 text-gray-600'}`} onClick={() => setFilter('all')}>All</button>
                 <button className={`mr-2 px-4 py-2 rounded-md ${filter === 'coal' ? 'bg-primary text-white' : 'bg-gray-200 text-gray-600'}`} onClick={() => setFilter('coal')}>Coal</button>
                 <button className={`mr-2 px-4 py-2 rounded-md ${filter === 'stone' ? 'bg-primary text-white' : 'bg-gray-200 text-gray-600'}`} onClick={() => setFilter('stone')}>Stone</button>
@@ -28,9 +28,9 @@ const Gallery = () => {
             <div className="grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
                 {filteredImages.map(image => (
                     <div key={image.id} className="flex flex-col rounded-lg overflow-hidden">
-                        <img className="object-cover w-full h-96" src={image.src} alt="Gallery" />
-                        <div className="px-4 py-2 bg-gray-100">
-                            <p className="text-gray-800 text-lg font-medium">{image.tags.join(', ')}</p>
+                        <img className="object-cover md:w-full w-3/4 h-96 mx-auto" src={image.src} alt="Gallery" />
+                        <div className="px-4 py-2 bg-gray-100 md:w-full  mx-auto w-3/4">
+                            <p className="text-gray-800 text-lg md:w-full w-3/4 font-medium  mx-auto">{image.tags.join(', ')}</p>
                         </div>
                     </div>
                 ))}
