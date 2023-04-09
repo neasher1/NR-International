@@ -1,6 +1,5 @@
 import React from 'react';
 import { BsChevronDoubleRight } from 'react-icons/bs';
-import PrimaryButton from '../../../Button/PrimaryButton/PrimaryButton';
 
 const Catagory = ({ pro }) => {
 
@@ -19,7 +18,10 @@ const Catagory = ({ pro }) => {
                 <p className='text-xl font-barlow text-left'><span className='font-semibold text-primary text-left'>Selling Port: </span>{SellingPort}</p>
                 <p className='text-xl font-barlow leading-relaxed'><span className='font-semibold text-primary'>Details: </span>{description}</p>
                 <div className='mt-8 font-barlow'>
-                    <PrimaryButton>Contact US <BsChevronDoubleRight /></PrimaryButton>
+                    <button
+                        className="font-barlow btn btn-secondary text-black bg-white border-primary hover:text-white hover:btn-primary tracking-widest" >
+                        Contact US <BsChevronDoubleRight />
+                    </button>
                 </div>
             </div>
         </div>

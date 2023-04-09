@@ -4,7 +4,8 @@ import logo from "../../../Images/logo.png";
 
 const menuItems = <>
     <li><Link className='font-barlow' to="/">Home</Link></li>
-    <li><Link className='font-barlow' to="/shop">Products</Link></li>
+    <li><Link className='font-barlow' to="/about-us">About</Link></li>
+    <li><Link className='font-barlow' to="/contact-us">Contact Us</Link></li>
 </>
 
 const Navbar = () => {
