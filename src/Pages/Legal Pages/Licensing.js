@@ -2,7 +2,7 @@ import React from 'react';
 
 const Licensing = () => {
     return (
-        <div className='my-8'>
+        <div className='my-8 p-8'>
             <h2 className="text-3xl font-bold text-primary mb-2">Licensing</h2>
 
             <p>Licensing refers to the legal agreement between the licensor (the owner of a product or service) and the licensee (the person or company granted the right to use the product or service). At NR International, we take licensing agreements seriously and ensure that all our operations are conducted in compliance with relevant regulations and laws.
